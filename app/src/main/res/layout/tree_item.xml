@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:gravity="center" android:background="@color/bg" android:padding="3dp">
+	<ImageView android:id="@+id/icon" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginRight="6.0dip"
+		android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:src="@drawable/outline_list_collapse"/>
+	<TextView android:textAppearance="?android:textAppearanceMedium"
+		android:gravity="center_vertical" android:id="@+id/text" android:textColor="#000" 
+		android:layout_width="wrap_content" android:layout_height="45dp"
+		android:singleLine="true" android:layout_toRightOf="@id/icon"
+		android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:text="xxxxxxxx"/>
+	<View android:layout_width="0dp" android:layout_height="fill_parent" android:layout_weight="1"/>
+	<TextView android:id="@+id/txt_chose" android:layout_width="80dp" android:layout_height="35dp" android:text="选择" android:gravity="center" android:textColor="#fff" android:textSize="18dp" android:background="#FFA920"/>
+</LinearLayout>
